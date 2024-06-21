@@ -12,6 +12,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.List;
 
+/*
+{
+	"login": "ana.souza@voll.med",
+	"senha": "123456"
+}
+*/
 @Table(name = "usuarios")
 @Entity(name = "Usuario")
 @Getter
